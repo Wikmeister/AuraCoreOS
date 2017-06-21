@@ -65,7 +65,7 @@ def webhook():
                     elif message_text.lower() == "Where is the computer science department ?" or message_text.lower() == "Where is CSE" or message_text.lower() == "Where is the computer science department":
                     	send_message(sender_id, "The CSE Department is in the first floor of E-Block.")
 
-                    elif message_text.lower() == "Where can i get food?" or message_text.lower() == "Where can i get food" or message_text.lower() == "I'm Hungry":
+                    elif message_text.lower() == "Where can i get food?" or message_text.lower() == "Where can i get food" or message_text.lower() == "I'm Hungry" or message_text.lower() == "food":
                     	send_message(sender_id, "There is a canteen in F-Block. But if you want better food, you can head to the PSG Management College where you have plenty of options. Please cross using the Sky Walk for your own safety.")
 
                     elif message_text.lower() == "What up" or message_text.lower() == "What are you doing?" or message_text.lower() == "What are you doing":
