@@ -46,7 +46,7 @@ def webhook():
                     if message_text.lower() == "hello" or message_text.lower() == "hi":
                     	send_message(sender_id, "Hello!")
 
-                    elif message_text.lower() == "who are you" or message_text.lower() == "who are you?" or message_text.lower() == "what are you?" or message_text.lower() == "what are you":
+                    elif message_text.lower() == "who are you" or message_text.lower() == "who are you?" or message_text.lower() == "what are you?" or message_text.lower() == "what are you" or message_text.lower() == "who r u?" or message_text.lower() == "wat r u?" :
                     	send_message(sender_id, "I'm Aura. The Smart Campus Assistant!")
 
                     elif message_text.lower() == "who is your creator" or message_text.lower() == "who is your creator?" or message_text.lower() == "who is god?" or message_text.lower() == "who built you?" or message_text.lower() == "who built you":
