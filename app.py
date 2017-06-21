@@ -68,7 +68,7 @@ def webhook():
                     elif message_text.lower() == "Where can i get food?" or message_text.lower() == "Where can i get food" or message_text.lower() == "I'm Hungry" or message_text.lower() == "food":
                     	send_message(sender_id, "There is a canteen in F-Block. But if you want better food, you can head to the PSG Management College where you have plenty of options. Please cross using the Sky Walk for your own safety.")
 
-                    elif message_text.lower() == "What up" or message_text.lower() == "What are you doing?" or message_text.lower() == "What are you doing":
+                    elif message_text.lower() == "What up" or message_text.lower() == "What are you doing?" or message_text.lower() == "What are you doing" or message_text.lower() == "sup":
                     	send_message(sender_id, "Nothing much. Just replying to your queries.")
 
                     elif message_text.lower() == "What is your favourite colour?" or message_text.lower() == "What is your favourite colour" or message_text.lower() == "What is your favourite color" or message_text.lower() == "What's your favourite colour?"  or message_text.lower() == "What's your favourite colour"  or message_text.lower() == "What is your favourite color?":
