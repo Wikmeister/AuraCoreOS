@@ -46,14 +46,14 @@ def webhook():
                     if message_text.lower() == "hello" or message_text.lower() == "hi":
                     	send_message(sender_id, "Hello!")
 
-                    elif message_text.lower() == "who are you" or message_text.lower() == "who are you?" or message_text.lower() == "what are you?" or message_text.lower() == "what are you" or message_text.lower() == "who r u?" or message_text.lower() == "wat r u?" :
+                    elif message_text.lower() == "Who are you" or message_text.lower() == "Who are you?" or message_text.lower() == "what are you?" or message_text.lower() == "what are you" or message_text.lower() == "who r u?" or message_text.lower() == "wat r u?" :
                     	send_message(sender_id, "I'm Aura. The Smart Campus Assistant!")
                     
-                     elif message_text.lower() == "My attendance percentage" or message_text.lower() == "attendance percentage" or message_text.lower() == "attendance"
+                     elif message_text.lower() == "My attendance percentage" or message_text.lower() == "Attendance percentage" or message_text.lower() == "attendance"
                     	send_message(sender_id, )
 
                     elif message_text.lower() == "Where are you?" or message_text.lower() == "where are you":
-                    	send_message(sender_id, "I'm in Miller's Planet. It'll be at least 7 Years before i reply to your next question.")
+                    	send_message(sender_id, "I'm in Miller's Planet. It'll be at least 7 Years before I reply to your next question.")
 
                    
                     elif message_text.lower() == "Show me the timetable ?" or message_text.lower() == "timetable":
@@ -62,11 +62,11 @@ def webhook():
                     elif message_text.lower() == "Where is the computer science department ?" or message_text.lower() == "Where is CSE" or message_text.lower() == "Where is the computer science department":
                     	send_message(sender_id, "The CSE Department is in the first floor of E-Block.")
 
-                    elif message_text.lower() == "Where can i get food?" or message_text.lower() == "Where can i get food" or message_text.lower() == "I'm Hungry" or message_text.lower() == "food":
-                    	send_message(sender_id, "There is a canteen in F-Block. But if you want better food, you can head to the PSG Management College where you have plenty of options. Please cross using the Sky Walk for your own safety.")
+                    elif message_text.lower() == "Where can i get food?" or message_text.lower() == "Where can I get food" or message_text.lower() == "I'm Hungry" or message_text.lower() == "food":
+                    	send_message(sender_id, "There is a canteen in F-Block. But if you want better food, you can head to the PSG Institute of Management where you have plenty of options. Please cross using the Sky Walk for your own safety.")
 
                     elif message_text.lower() == "What up" or message_text.lower() == "What are you doing?" or message_text.lower() == "What are you doing" or message_text.lower() == "sup":
-                    	send_message(sender_id, "Nothing much. Just replying to your queries.")
+                    	send_message(sender_id, "Nothing much. Just replying to your queries :)")
 
                     elif message_text.lower() == "What is your favourite colour?" or message_text.lower() == "What is your favourite colour" or message_text.lower() == "What is your favourite color" or message_text.lower() == "What's your favourite colour?"  or message_text.lower() == "What's your favourite colour"  or message_text.lower() == "What is your favourite color?":
                     	send_message(sender_id, "Neon Blue")
@@ -82,7 +82,7 @@ def webhook():
                     elif message_text.lower() == "Events" or message_text.lower() == "Event":
                     	send_message(sender_id, "Hello!")
                         
-                         elif message_text.lower() == "what's your age" or message_text.lower() == "how old are you" or message_text.lower() == "how old r u" or message_text.lower() == "wats ur age":
+                         elif message_text.lower() == "What's your age" or message_text.lower() == "How old are you" or message_text.lower() == "how old r u" or message_text.lower() == "wats ur age":
                     	send_message(sender_id, "I'm  too young")
 
                     else:
