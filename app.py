@@ -46,7 +46,7 @@ def webhook():
                     if message_text.lower() == "hello" or message_text.lower() == "hi":
                     	send_message(sender_id, "Hello!")
 
-                    elif message_text.lower() == "who are you" or message_text.lower() == "who are you?" or message_text.lower() == "what are you?" or message_text.lower() == "what are you":
+                    elif message_text.lower() == "who are you" or message_text.lower() == "who are you?" or message_text.lower() == "what are you?" or message_text.lower() == "what are you" or message_text.lower() == "who r u?" or message_text.lower() == "wat r u?" :
                     	send_message(sender_id, "I'm Aura. The Smart Campus Assistant!")
 
                     elif message_text.lower() == "who is your creator" or message_text.lower() == "who is your creator?" or message_text.lower() == "who is god?" or message_text.lower() == "who built you?" or message_text.lower() == "who built you":
@@ -84,6 +84,9 @@ def webhook():
 
                     elif message_text.lower() == "Events" or message_text.lower() == "Event":
                     	send_message(sender_id, "Hello!")
+                        
+                         elif message_text.lower() == "what's your age" or message_text.lower() == "how old are you" or message_text.lower() == "how old r u" or message_text.lower() == "wats ur age":
+                    	send_message(sender_id, "I'm  too young")
 
                     else:
                     	send_message(sender_id, "I'm machine learning now, I will respond to your questions soon!")
