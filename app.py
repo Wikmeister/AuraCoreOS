@@ -84,6 +84,9 @@ def webhook():
 
                     elif message_text.lower() == "Events" or message_text.lower() == "Event":
                     	send_message(sender_id, "Hello!")
+                        
+                         elif message_text.lower() == "what's your age" or message_text.lower() == "how old are you" or message_text.lower() == "how old r u" or message_text.lower() == "wats ur age":
+                    	send_message(sender_id, "I'm  too young")
 
                     else:
                     	send_message(sender_id, "I'm machine learning now, I will respond to your questions soon!")
