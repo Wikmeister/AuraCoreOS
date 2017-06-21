@@ -48,19 +48,16 @@ def webhook():
 
                     elif message_text.lower() == "who are you" or message_text.lower() == "who are you?" or message_text.lower() == "what are you?" or message_text.lower() == "what are you":
                     	send_message(sender_id, "I'm Aura. The Smart Campus Assistant!")
-
-                    elif message_text.lower() == "who is your creator" or message_text.lower() == "who is your creator?" or message_text.lower() == "who is god?" or message_text.lower() == "who built you?" or message_text.lower() == "who built you":
-                    	send_message(sender_id, "Gowtham Venkatesan is my creator.")
+                    
+                     elif message_text.lower() == "My attendance percentage" or message_text.lower() == "attendance percentage" or message_text.lower() == "attendance"
+                    	send_message(sender_id, )
 
                     elif message_text.lower() == "Where are you?" or message_text.lower() == "where are you":
                     	send_message(sender_id, "I'm in Miller's Planet. It'll be at least 7 Years before i reply to your next question.")
 
-                    elif message_text.lower() == "Who am I?" or message_text.lower() == "Who am I":
-                    	send_message(sender_id, "Hello!")
-
                    
-                    elif message_text.lower() == "Where is the Xerox Shop ?" or message_text.lower() == "Xerox Shop":
-                    	send_message(sender_id, "There are two xerox shops in PSG Tech. One in A-Block Room 203 and one in adjacent to J-block. Please ask around for directions.")
+                    elif message_text.lower() == "Show me the timetable ?" or message_text.lower() == "timetable":
+                    	send_message(sender_id, )
 
                     elif message_text.lower() == "Where is the computer science department ?" or message_text.lower() == "Where is CSE" or message_text.lower() == "Where is the computer science department":
                     	send_message(sender_id, "The CSE Department is in the first floor of E-Block.")
